@@ -9,8 +9,8 @@ import os
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_AUTO_RELOAD = True
 
-app = Ypogeios(__name__) 
-app.config['APPLICATION_ROOT'] = '/ypogeios'
+app = AlakayTamyn(__name__) 
+app.config['APPLICATION_ROOT'] = '/AlakayTamyn'
 app.config.from_object(__name__)
 pages = FlatPages(app)
 
